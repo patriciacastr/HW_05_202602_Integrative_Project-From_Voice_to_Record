@@ -52,7 +52,7 @@ grep -rnE "import (streamlit|gradio|tkinter)|from (streamlit|gradio)" src/
 - 5 entrevistas (t1_01..t1_05) y 5 llamadas (t2_01..t2_05), de unos 2 a 4 minutos, grabadas por mí con una compañera, alternando voces A y B. Aparezco en todos los clips.
 - **Todo lo dicho es inventado.** No hay salarios, direcciones ni datos personales reales.
 - **Todas las personas que aparecen aceptaron participar** y no se nombra a nadie que no haya aceptado ser nombrado.
-- **Autoría de los guiones:** [COMPLETAR con honestidad: quién escribió cada guion, qué cambié yo, y que cada una grabó, transcribió y analizó por su cuenta].
+- **Autoría:** escribí los guiones con ayuda de Claude (todo lo dicho es inventado) y grabé todos los audios yo misma, junto con otra persona que leyó la otra voz. Transcribí, extraje y analicé por mi cuenta.
 - Ground truth: `ground_truth/t1_ground_truth.csv`, `ground_truth/t2_ground_truth.json` y `ground_truth/reference_transcripts/`. Se escribió antes de grabar, por eso no costó nada: la referencia es el propio guion, no subtítulos automáticos (evita la trampa de la evaluación circular).
 - Generadores de guiones y ground truth: `scripts/guiones_data.py`, `relleno.py`, `medir_duracion.py`, `build_ground_truth.py`. La tabla oficial es la de `ground_truth/`.
 - Cómo varié la posición de cada campo en T1: ver `docs/guiones/guiones_t1.md`.

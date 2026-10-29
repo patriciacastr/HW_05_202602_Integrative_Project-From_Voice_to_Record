@@ -1,4 +1,4 @@
-"""SET B — guiones de la compañera. Todo lo dicho es INVENTADO.
+"""Guiones escritos por mí con ayuda de Claude. Todo lo dicho es INVENTADO.
 
 Convención: la transcripción de referencia es el texto de ambas voces, en orden.
 Si improvisan al grabar, corrijan el texto aquí y regeneren con build_ground_truth.py.
