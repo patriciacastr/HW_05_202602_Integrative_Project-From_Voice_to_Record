@@ -1,8 +1,11 @@
 """Capa ASR (semilla del motor). Sin imports de UI.
 - Falla si pides GPU y no hay (no cae a CPU en silencio).
 - Lee el dispositivo REAL desde la librería y mide VRAM pico con NVML."""
+import subprocess
 import threading
 import time
+
+import numpy as np
 
 import ctranslate2
 from faster_whisper import WhisperModel
@@ -71,15 +74,29 @@ def build_glossary_kwargs(terms, mechanism):
     return {"initial_prompt": "Vocabulario: " + ", ".join(terms) + "."}
 
 
+
+def decode_audio_ffmpeg(path, sr=16000):
+    """Decodifica cualquier audio (m4a, wav, ...) a float32 mono 16 kHz con ffmpeg.
+    Evita depender de PyAV, cuya versión puede chocar con faster-whisper."""
+    cmd = ["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(path),
+           "-f", "f32le", "-ac", "1", "-ar", str(sr), "-"]
+    out = subprocess.run(cmd, capture_output=True)
+    if out.returncode != 0:
+        raise RuntimeError(f"ffmpeg no pudo decodificar {path}: {out.stderr.decode(errors='ignore')[:300]}")
+    return np.frombuffer(out.stdout, dtype=np.float32)
+
+
 def transcribe(model, audio_path, language="es", beam_size=5, vad_filter=False, glossary_kwargs=None):
+    audio = decode_audio_ffmpeg(audio_path)       # array float32 16 kHz
+    audio_s = len(audio) / 16000.0
     t0 = time.perf_counter()
     segments, info = model.transcribe(
-        str(audio_path), language=language, beam_size=beam_size,
+        audio, language=language, beam_size=beam_size,
         vad_filter=vad_filter, **(glossary_kwargs or {}))
     text = " ".join(s.text.strip() for s in segments).strip()   # el generador se consume aquí
     elapsed = time.perf_counter() - t0
-    return {"text": text, "elapsed_s": elapsed, "audio_s": float(info.duration),
-            "sec_per_min_audio": elapsed / (info.duration / 60.0) if info.duration else None}
+    return {"text": text, "elapsed_s": elapsed, "audio_s": audio_s,
+            "sec_per_min_audio": elapsed / (audio_s / 60.0) if audio_s else None}
 
 
 from src.audio_utils import find_audio  # noqa: E402,F401  (re-export)
