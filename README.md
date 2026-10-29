@@ -143,9 +143,10 @@ Un solo módulo, `src/engine.py`, expone `procesar_audio(ruta, esquema)`. Recibe
 
 ## 8. Herramientas de IA declaradas
 
-- Claude (chat, claude.ai): [COMPLETAR qué hizo: apoyo con el código de ASR, extractores, validador y resúmenes; yo ejecuté, verifiqué y puedo explicar el pipeline].
-- Agentes de código / servidores MCP usados: [COMPLETAR o indicar "ninguno"].
-- Qwen2.5-3B-Instruct (local) como modelo del camino 2.
+- **Claude (chat en claude.ai):** única herramienta de IA que usé para construir el proyecto. Me ayudó a escribir los guiones, el código de transcripción, los extractores por reglas y por LLM, el validador aritmético, el motor, la app y los scripts de resumen. Yo ejecuté el código en Colab y en el Codespace, revisé los resultados y subí el trabajo al repositorio.
+- **Servidores MCP:** ninguno.
+- **Agentes de código (Claude Code, Codex, Copilot):** ninguno.
+- **Qwen2.5-3B-Instruct** (modelo local de Hugging Face): modelo de lenguaje del camino 2 de extracción, ejecutado en Colab.
 
 ## 9. Limitaciones
 
