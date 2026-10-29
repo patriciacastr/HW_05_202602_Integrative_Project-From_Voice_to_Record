@@ -10,3 +10,4 @@ streamlit==1.66.1
 PyYAML==6.0.3
 python-dotenv==1.2.4
 nvidia-ml-py==13.615.71
+streamlit==1.66.1
