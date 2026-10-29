@@ -1,0 +1,14 @@
+{
+  "text": "Buenos días, Ymena. Cuéntame, ¿qué tecnologías manejas para empezar? Buenos días, Pamela. Trabajo con React, JavaScript y recientemente empecé a usar TypeScript. Para el control de versiones uso Git, todos los dios. ¿Cuánta experiencia laboral tienes? 6 meses. Soy recién regresada, pero hice proyectos propios durante la universidad y publico una página para una tienda de ropa. ¿Cuál fue tu último puesto? Desarrolladora Frontend Junior en Latino Software, donde estuve en un equipo que construía una aplicación de reservas. ¿Qué hacías en ese equipo? Armaba las pantallas, corregí errores que reportaban a los usuarios y escribí también pruebas para los componentes. Aprendí mucho de las revisiones de código de mis compañeras. ¿Y tu nivel de inglés? Definitivamente avanzado. Viví un año en Canadá con una beca y desde entonces le oí escribir inglés a diario. Tengo certificaciones. Excelente. ¿Cuándo podrías incorporarte? Entre semanas, porque debo entregar mis pendientes y despederme al equipo. Perfecto. ¿Cuál es tu pretensión salarial? 900 dólares al mes, aunque soy flexible según el paquete de beneficios. Entiendo. ¿Cómo te mantienes al día con las tecnologías nuevas? Sí, o cursos cortos en línea y leo documentación oficial. También participo en un grupo de mujeres desarrolladoras donde compartimos ejercicios y nos ayudamos con dudas. ¿Qué te gustaría construir en esta empresa? Me gustaría trabajar en productos que usen mucha gente y aprender cómo se cuide el rendimiento o una aplicación cuando crece. ¿Cómo manejas un error que no logras resolver? Primero intento reproducirlo en un ejemplo pequeño. Si después de un rato no avanzo pido ayuda de una compañera y le explico lo que ya le pruebe, explicarlo en voz alta también me ayuda a encontrar una respuesta. ¿Cómo te aseguras de que lo que construyes sea fácil de usar para todas las personas? Pruebo con el teclado si no sale el ratón y reviso que los textos se lean bien con letras grandes. También pido una mía con poca vista que lo pruebe y me cuente dónde se pierde. ¿Qué interesante? ¿Qué valoras en la revisión del trabajo de otras personas? Que se comente con respeto y con una razón. Si me piden que cambie algo me gusta entender por qué y cuando reviso a otras intento comenzar por lo que me gustó antes de señalar mejoras. ¿Cómo imaginas tu crecimiento dentro de un tiempo? Me gustaría ser alguien en quien el equipo confíe para tareas difíciles y también ayudar a las personas que recién empiezan. Cuando yo llegue me ayudaron mucho y quiero devolverlo. Muchas gracias Jimena. Te escribiremos pronto. Gracias a ti Pamela.",
+  "elapsed_s": 77.7265361259997,
+  "audio_s": 140.7786875,
+  "sec_per_min_audio": 33.12711782143858,
+  "clip": "t1_03",
+  "level": "L0",
+  "run": "small_cpu_int8",
+  "model": "small",
+  "compute_type": "int8",
+  "device_requested": "cpu",
+  "device_runtime": "cpu",
+  "glossary": false
+}

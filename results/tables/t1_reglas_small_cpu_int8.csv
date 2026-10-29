@@ -1,0 +1,36 @@
+clip,campo,extraido,gt,correcto,verificacion
+t1_01,anios_experiencia,4,4,True,verificado
+t1_01,ultimo_puesto,diseñadora UX en nube creativa,diseñadora UX,False,verificado
+t1_01,tecnologias,"['Figma', 'Adobe XD', 'Illustrator']",Figma|Adobe XD|Illustrator,True,verificado
+t1_01,pretension_salarial_monto,,5200,False,sin_verificar
+t1_01,pretension_salarial_moneda,,PEN,False,sin_verificar
+t1_01,disponibilidad,2026-11-30,2026-11-30,True,verificado
+t1_01,nivel_ingles,intermedio,intermedio,True,verificado
+t1_02,anios_experiencia,10,10,True,verificado
+t1_02,ultimo_puesto,Analista financiera sin niña en el Seguros Horizonte,analista financiera senior,False,verificado
+t1_02,tecnologias,"['Excel', 'VBA', 'Power BI']",Excel|VBA|SAP|Power BI,False,verificado
+t1_02,pretension_salarial_monto,8200,8200,True,verificado
+t1_02,pretension_salarial_moneda,PEN,PEN,True,verificado
+t1_02,disponibilidad,,2027-02-01,False,sin_verificar
+t1_02,nivel_ingles,basico,basico,True,verificado
+t1_03,anios_experiencia,0.5,0.5,True,verificado
+t1_03,ultimo_puesto,Desarrolladora Frontend Junior,desarrolladora frontend junior,True,verificado
+t1_03,tecnologias,"['React', 'JavaScript', 'TypeScript', 'Git']",React|JavaScript|TypeScript|Git,True,verificado
+t1_03,pretension_salarial_monto,900,900,True,verificado
+t1_03,pretension_salarial_moneda,USD,USD,True,verificado
+t1_03,disponibilidad,,2026-11-23,False,sin_verificar
+t1_03,nivel_ingles,avanzado,avanzado,True,verificado
+t1_04,anios_experiencia,2.5,2.5,True,verificado
+t1_04,ultimo_puesto,,especialista en marketing digital,False,sin_verificar
+t1_04,tecnologias,"['Google Analytics', 'Meta Ads', 'HubSpot']",Google Analytics|Meta Ads|HubSpot|Canva,False,verificado
+t1_04,pretension_salarial_monto,3900,3900,True,verificado
+t1_04,pretension_salarial_moneda,PEN,PEN,True,verificado
+t1_04,disponibilidad,2026-11-15,2026-11-15,True,verificado
+t1_04,nivel_ingles,intermedio,intermedio,True,verificado
+t1_05,anios_experiencia,6,6,True,verificado
+t1_05,ultimo_puesto,de científica de datos,científica de datos,False,verificado
+t1_05,tecnologias,['R'],R|Python|Stata|SQL,False,verificado
+t1_05,pretension_salarial_monto,11500,11500,True,verificado
+t1_05,pretension_salarial_moneda,PEN,PEN,True,verificado
+t1_05,disponibilidad,2026-11-16,2026-11-16,True,verificado
+t1_05,nivel_ingles,basico,basico,True,verificado

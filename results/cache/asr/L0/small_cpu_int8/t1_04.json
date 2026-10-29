@@ -1,0 +1,14 @@
+{
+  "text": "Hola, Brenda, bienvenida. Antes que nada, ¿cómo escribirías tu nivel inglés? Hola, la Brenda, intramendio alto. Tengo nivel B2. Puedo participar en reuniones y escribir y correr sin problema, aunque a veces busco palabras. Gracias. Ahora la pregunta que suele incomodar. ¿Cuál es tu pretensión salarial? Pretendo 4.000... ay no, 3.900 soles mensuales. Muy bien, cuéntame sobre tu experiencia. Tengo dos años y medio de experiencia en marketing digital. En mi último fueso fue especialista en marketing digital de ensaborandino, una marca de alimentos. ¿Qué hacías ahí? Ratificaba campañas, manejaba las redes sociales y me dieron resultados de cada semana. Por ejemplo, lanzamos una campaña de recetas que aumentó las piscitas a la tienda en línea en un 30%. ¿Con qué herramientas trabajabas? Google Analytics para medir el tráfico, Meta Ads para los anuncios, Hubspot para regresar los contactos y Camba para las piscas gráficas. ¿Cómo decías si una campaña funcionó? Primero defino qué quiero lograr, por ejemplo, más suscripciones y comparo contra la semana anterior. Siendo mejoró, pruebo otro mensaje o cambié al público al que le llega. ¿Cuándo podrías empezar? A partir del 15 de noviembre. Ya conversé con mi jefa y acepta que me vaya. Perfecto, ¿prefieres trabajar con metas mensuales o por proyecto? Me gustan las metas mensuales porque me ayudan a priorizar, pero también me gustan los proyectos grandes cuando hay tiempo para planificarlos. Cuéntame cómo trabajas con diseñadores y redactoras cuando tienen ideas distintas a las tuyas. Les pido que lo expliquen su idea completa y cuál es el objetivo detrás. Muchas veces coincidimos en lo que queremos lograr y solo cambió el camino, así que probamos ambos y vemos que funciona mejor. ¿Qué haces cuando la campaña no ha resultado que esperabas? Dejo pasar un poco de tiempo para no reaccionar con prisa y luego reviso que cambió. A veces fue el mensaje, a veces el momento. Lo importante es aprender algo y compartirlo con el equipo. ¿Cómo te gusta que te den seguimientos de trabajo? Con reuniones cortas y frecuentes y con comentarios concretos. Si me dicen que salió bien y que puedo ajustar o puedo corregir rápido sin esperar una evaluación larga. ¿Qué esperas de tu jefe o jefa directa? Que me dio objetivos claros y comentarios sinceros. Prefiero que me diga pronto qué debo mejorar, aunque no sea agradable escuchar. ¿Alguna pregunta para nosotras? ¿Cuántas personas conforman el equipo de marketing y cómo se reparten las marcas? Son seis personas y cada una lleva dos marcas. Gracias, Brenda. Y a ti, Lorena.",
+  "elapsed_s": 82.42065031399989,
+  "audio_s": 141.76,
+  "sec_per_min_audio": 34.8845867581828,
+  "clip": "t1_04",
+  "level": "L0",
+  "run": "small_cpu_int8",
+  "model": "small",
+  "compute_type": "int8",
+  "device_requested": "cpu",
+  "device_runtime": "cpu",
+  "glossary": false
+}

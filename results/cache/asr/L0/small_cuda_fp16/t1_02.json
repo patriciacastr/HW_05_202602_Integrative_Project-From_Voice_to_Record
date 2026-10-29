@@ -1,0 +1,14 @@
+{
+  "text": "Hola, Mariana, gracias por venir. Para empezar, ¿cuántos años de experiencia tienes? Hola, yesenía. Tengo 10 años de experiencia en finanzas. Casi todos en el sector bancario y los sentimos en una empresa de seguros. Entendido. Y para ir aclarando, ¿cuál sería tu pretensión salarial? Mi pretensión es de 8.200 soles al mes, con los beneficios de la ley. ¿Ha notado cómo está tu inglés? Básico, la verdad. Leo informe sencillos, pero no me siento cómodo conversando y quiero mejorarlo. Así que por eso me escribí en clases virtuales. Muy bien, ¿qué herramientas usas en tu trabajo? Excel todos los días, con macros en VBA para automatizar los reportes, también usas up para los registros contables y Power BI para presentar los resultados a la gerencia. ¿Cuál fue tu último puesto? Analista financiera sin niña en el Seguros Horizonte, preparaba proyecciones, controlaba el presupuesto y revisaba los cierres de cada mes. ¿Cuántas personas estaban a tu cargo? Dirigía a un equipo de 5 personas y respondía a la genente de finanzas. ¿Por qué te interesa este cambio? La verdad es que quisiera trabajar en una empresa más pequeña, donde mi trabajo tenga impacto mucho más directo. En la aseguradora grande yo era una pieza más. ¿Cómo manejas un cierre de mes cuando los números no cuadran? Primero comparo contra el mes anterior para ver dónde cambió algo. Luego voy por partes, por cuenta hasta encontrar la diferencia. Casi siempre es un registro duplicado o una fecha malpuesto. ¿Cuéntame cómo explicas los resultados financieros a personas que no son del área? Evito los términos técnicos y uso comparaciones cotidianas. Por ejemplo explico el fútbol de caja como el dinero que realmente en la cuenta el cierre, aunque todavía falta cobrar algunas facturas. ¿Qué haces cuando la gerencia te pide una cifra que no se puede sostener en los datos? La desespliego con calma. ¿Qué se puede afirmar? Es que no. Prefiero decir que no tengo esa tata todavía y ofrecer una estimación clara antes que dar una cifra que después te haga que corregir. ¿Cómo te mantienes al día con los cambios en las normas? Luego los boletines del colegio profesional y conversa con colegas de otras empresas. Además anotas también en un cuaderno compartido los cambios que afectan a mi equipo para que nadie los olvide. Bien, ¿y cuándo podrías empezar? Quisiera terminar el año con mi equipo actual, así que podría incorporarme el primero de febrero. ¿Entendido? ¿Tienes alguna pregunta? Sí. ¿Cómo es el proceso de decir recontable en esta empresa y quiénes participaron en él? Lo vemos en la siguiente reunión. Gracias Mariana. Gracias a ti.",
+  "elapsed_s": 4.536115918000178,
+  "audio_s": 137.8986875,
+  "sec_per_min_audio": 1.9736732815532467,
+  "clip": "t1_02",
+  "level": "L0",
+  "run": "small_cuda_fp16",
+  "model": "small",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": false
+}
