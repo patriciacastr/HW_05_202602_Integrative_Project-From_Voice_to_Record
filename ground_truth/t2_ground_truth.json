@@ -1,0 +1,81 @@
+{
+  "dominio": "restaurante",
+  "negocio": "Chifa Dragón Dorado (inventado)",
+  "carta": {
+    "arroz chaufa|personal": 18, "arroz chaufa|familiar": 34, "tallarín saltado|unico": 22,
+    "wantán frito|porción": 12, "sopa de wantán|unico": 16, "gaseosa|personal": 5, "limonada|jarra": 14
+  },
+  "promociones": {
+    "Q1": "descuento de 15 soles en pedidos desde 90 soles (resta 15 si subtotal >= 90)",
+    "Q2": "tres por dos en gaseosas personales (por cada 3, una gratis: resta 5)"
+  },
+  "clips": {
+    "t2_01": {
+      "items": [
+        {"producto": "arroz chaufa", "tamano": "familiar", "cantidad": 1, "precio_unitario": 34},
+        {"producto": "tallarín saltado", "tamano": "unico", "cantidad": 1, "precio_unitario": 22},
+        {"producto": "wantán frito", "tamano": "porción", "cantidad": 1, "precio_unitario": 12}
+      ],
+      "promocion": null,
+      "direccion_entrega": "Calle Los Naranjos 156, Pueblo Libre",
+      "metodo_pago": "yape",
+      "total_dicho": 68, "total_correcto": 68,
+      "trampas": {"autocorreccion": false, "total_incorrecto": false, "direccion_con_digitos": true},
+      "nota": "La vendedora menciona que NO aplica promocion: promocion debe ser null"
+    },
+    "t2_02": {
+      "items": [
+        {"producto": "arroz chaufa", "tamano": "personal", "cantidad": 2, "precio_unitario": 18},
+        {"producto": "sopa de wantán", "tamano": "unico", "cantidad": 1, "precio_unitario": 16},
+        {"producto": "gaseosa", "tamano": "personal", "cantidad": 3, "precio_unitario": 5}
+      ],
+      "promocion": "Q2",
+      "direccion_entrega": "Avenida Brasil 1210, Breña",
+      "metodo_pago": "efectivo",
+      "total_dicho": 72, "total_correcto": 62,
+      "trampas": {"autocorreccion": true, "total_incorrecto": true, "direccion_con_digitos": true},
+      "nota": "Autocorreccion: sopas 2 -> 1. Total dicho 72 (la vendedora lo repite) vs correcto 62: error del HABLANTE aunque parezca de ASR"
+    },
+    "t2_03": {
+      "items": [
+        {"producto": "arroz chaufa", "tamano": "familiar", "cantidad": 2, "precio_unitario": 34},
+        {"producto": "tallarín saltado", "tamano": "unico", "cantidad": 1, "precio_unitario": 22},
+        {"producto": "wantán frito", "tamano": "porción", "cantidad": 2, "precio_unitario": 12},
+        {"producto": "limonada", "tamano": "jarra", "cantidad": 1, "precio_unitario": 14}
+      ],
+      "promocion": "Q1",
+      "direccion_entrega": null,
+      "metodo_pago": "tarjeta",
+      "total_dicho": 113, "total_correcto": 113,
+      "trampas": {"autocorreccion": true, "total_incorrecto": false, "direccion_con_digitos": false},
+      "nota": "Autocorreccion: chaufas familiares 3 -> 2. Recojo en tienda: sin direccion (null)"
+    },
+    "t2_04": {
+      "items": [
+        {"producto": "arroz chaufa", "tamano": "personal", "cantidad": 1, "precio_unitario": 18},
+        {"producto": "tallarín saltado", "tamano": "unico", "cantidad": 1, "precio_unitario": 22},
+        {"producto": "sopa de wantán", "tamano": "unico", "cantidad": 1, "precio_unitario": 16},
+        {"producto": "gaseosa", "tamano": "personal", "cantidad": 4, "precio_unitario": 5}
+      ],
+      "promocion": "Q2",
+      "direccion_entrega": "Jirón Lampa 185, interior 3, Cercado de Lima",
+      "metodo_pago": "efectivo",
+      "total_dicho": 76, "total_correcto": 71,
+      "trampas": {"autocorreccion": false, "total_incorrecto": true, "direccion_con_digitos": true},
+      "nota": "La vendedora olvido aplicar el 3x2 (76 = sin promo; correcto 71)"
+    },
+    "t2_05": {
+      "items": [
+        {"producto": "arroz chaufa", "tamano": "familiar", "cantidad": 2, "precio_unitario": 34},
+        {"producto": "tallarín saltado", "tamano": "unico", "cantidad": 3, "precio_unitario": 22},
+        {"producto": "wantán frito", "tamano": "porción", "cantidad": 2, "precio_unitario": 12}
+      ],
+      "promocion": "Q1",
+      "direccion_entrega": "Avenida La Marina 3420, Los Olivos, piso 4",
+      "metodo_pago": "yape",
+      "total_dicho": 148, "total_correcto": 143,
+      "trampas": {"autocorreccion": true, "total_incorrecto": true, "direccion_con_digitos": true},
+      "nota": "Autocorreccion: tallarines 2 -> 3. Total dicho 148 vs correcto 143 (restó 10 en vez de 15); 'cuarenta y ocho' vs 'cuarenta y tres' es confusion plausible de ASR"
+    }
+  }
+}

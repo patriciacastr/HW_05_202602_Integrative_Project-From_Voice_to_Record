@@ -1,0 +1,61 @@
+# Todo lo configurable vive aquí. Credenciales: solo en .env
+paths:
+  audio_original: data/audio/original      # t1_01.m4a, t1_02.m4a, ..., t2_05.m4a
+  audio_ladder: data/audio/ladder          # L1/, L2/, L3/ (se generan con scripts/make_ladder.py)
+  reference_dir: ground_truth/reference_transcripts
+  gt_t1: ground_truth/t1_ground_truth.csv
+  gt_t2: ground_truth/t2_ground_truth.json
+  cache_asr: results/cache/asr
+  tables: results/tables
+  guiones_dir: docs/guiones
+
+clips:
+  t1: [t1_01, t1_02, t1_03, t1_04, t1_05]
+  t2: [t2_01, t2_02, t2_03, t2_04, t2_05]
+
+asr:
+  language: es
+  beam_size: 5
+  vad_filter: false
+  # Si pides cuda y no hay GPU, el programa FALLA (no cae a CPU en silencio)
+  fail_if_gpu_unavailable: true
+  vram_poll_interval_s: 0.05
+
+# Corridas del benchmark (Fase 2 de la Tarea 1). Edita/añade las que necesites.
+benchmark:
+  runs:
+    - {name: small_cuda_fp16,    model: small,    device: cuda, compute_type: float16, glossary: false}
+    - {name: large_cuda_fp16,    model: large-v3, device: cuda, compute_type: float16, glossary: false}
+    - {name: large_cuda_int8,    model: large-v3, device: cuda, compute_type: int8_float16, glossary: false}
+    - {name: large_cuda_fp16_gl, model: large-v3, device: cuda, compute_type: float16, glossary: true}
+    - {name: small_cpu_int8,     model: small,    device: cpu,  compute_type: int8,    glossary: false}
+
+# Glosario de dominio. 'mechanism' = initial_prompt | hotwords
+# (verifica en la documentación de TU versión de faster-whisper cuál soporta; parte del trabajo)
+glossary:
+  mechanism: initial_prompt
+  terms:
+    t1: [Figma, Adobe XD, Illustrator, Excel, VBA, SAP, Power BI, React, JavaScript, TypeScript, Git,
+         Google Analytics, Meta Ads, HubSpot, Canva, R, Python, Stata, SQL]
+    t2: [chaufa, tallarín saltado, wantán, gaseosa, limonada, Yape, delivery]
+
+normalization:   # misma regla para referencia e hipótesis antes de calcular WER/CER
+  lowercase: true
+  strip_punctuation: true
+  collapse_whitespace: true
+  digits_to_words: true        # "5200" -> "cinco mil doscientos" (la referencia está escrita con palabras)
+  keep_accents: true
+
+ladder:
+  # L0 = original sin tocar
+  l1_whatsapp: {codec: libopus, bitrate: 16k, channels: 1, sample_rate: 16000}
+  l2_phone:    {highpass_hz: 300, lowpass_hz: 3400, sample_rate: 8000, channels: 1}
+  l3_noisy:    {base: l1, snr_db: 10, noise_type: pink, seed: 42}   # SNR global (RMS señal / RMS ruido)
+
+extraction:      # (se completa en la Fase 3)
+  fecha_referencia_t1: "2026-11-02"
+  llm_model: ""  # elige y justifica
+  prompts_file: prompts.yaml
+
+validation:      # (Tarea 2)
+  total_tolerance_soles: 0

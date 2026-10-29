@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+# Audio y pesos de modelos NO se suben (ver README: cómo regenerar)
+data/audio/**/*.wav
+data/audio/**/*.m4a
+data/audio/**/*.mp3
+data/audio/**/*.ogg
+data/audio/**/*.opus
+models/
+.ipynb_checkpoints/

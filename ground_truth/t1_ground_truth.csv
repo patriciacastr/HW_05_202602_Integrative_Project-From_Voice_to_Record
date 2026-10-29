@@ -1,0 +1,6 @@
+clip_id,anios_experiencia,ultimo_puesto,tecnologias,pretension_salarial_monto,pretension_salarial_moneda,disponibilidad,nivel_ingles,notas_trampas
+t1_01,4,diseñadora UX,Figma|Adobe XD|Illustrator,5200,PEN,2026-11-30,intermedio,distractores 'dos primeros y otros dos' / 'tres pasos' / 'quince personas'; disponibilidad relativa 'a fin de mes'
+t1_02,10,analista financiera senior,Excel|VBA|SAP|Power BI,8200,PEN,2027-02-01,basico,salario dicho al inicio; distractor 'cinco personas'; fecha absoluta 'primero de febrero'
+t1_03,0.5,desarrolladora frontend junior,React|JavaScript|TypeScript|Git,900,USD,2026-11-23,avanzado,'seis meses'=0.5; distractor 'un año en Canadá'; salario en dolares; 'en tres semanas'
+t1_04,2.5,especialista en marketing digital,Google Analytics|Meta Ads|HubSpot|Canva,3900,PEN,2026-11-15,intermedio,autocorreccion de salario (cuatro mil... no tres mil novecientos); 'B2'=intermedio; distractor 'treinta por ciento'
+t1_05,6,científica de datos,R|Python|Stata|SQL,11500,PEN,2026-11-16,basico,tecnologia de una letra 'R'; distractor 'tres metodos'; 'en dos semanas'
