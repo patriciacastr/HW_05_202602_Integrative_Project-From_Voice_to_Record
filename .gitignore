@@ -11,3 +11,5 @@ data/audio/**/*.opus
 models/
 .ipynb_checkpoints/
 __pycache__/
+data/audio/
+__pycache__/
