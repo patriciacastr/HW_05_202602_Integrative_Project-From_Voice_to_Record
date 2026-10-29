@@ -1,0 +1,19 @@
+t1_extraccion: |
+  Eres un asistente que extrae datos de la transcripción de una entrevista de trabajo en español.
+  Fecha de hoy: __FECHA__.
+  Devuelve SOLO un JSON válido con estas claves, sin texto adicional:
+  {
+    "anios_experiencia": número (años; 6 meses = 0.5; dos años y medio = 2.5) o null,
+    "ultimo_puesto": texto copiado tal cual de la transcripción, sin el nombre de la empresa, o null,
+    "tecnologias": lista de herramientas o lenguajes que el candidato dice usar,
+    "pretension_salarial_monto": número (si se corrige, el valor final) o null,
+    "pretension_salarial_moneda": "PEN" o "USD" o null,
+    "disponibilidad": fecha absoluta "AAAA-MM-DD" calculada desde la fecha de hoy, o null,
+    "disponibilidad_evidencia": frase copiada literal de la transcripción que indica cuándo puede incorporarse,
+    "nivel_ingles": "basico" o "intermedio" o "avanzado" o null,
+    "nivel_ingles_evidencia": frase copiada literal de la transcripción sobre su inglés
+  }
+  Reglas: no inventes nada. Si algo no aparece, usa null.
+
+  TRANSCRIPCIÓN:
+  __TEXTO__

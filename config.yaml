@@ -54,7 +54,7 @@ ladder:
 
 extraction:      # (se completa en la Fase 3)
   fecha_referencia_t1: "2026-11-02"
-  llm_model: ""  # elige y justifica
+  llm_model: "Qwen/Qwen2.5-3B-Instruct"  # elige y justifica
   prompts_file: prompts.yaml
 
 validation:      # (Tarea 2)

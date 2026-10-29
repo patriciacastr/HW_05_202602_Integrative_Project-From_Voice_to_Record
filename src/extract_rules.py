@@ -166,12 +166,13 @@ def f_ingles(text):
 
 # ---------- verificación literal ----------
 def numero_en_transcripcion(valor, text):
-    """¿el valor aparece literalmente (en dígitos o en palabras) en la transcripción?"""
+    """¿el valor aparece literalmente (dígitos o palabras) en la transcripción?"""
     t = norm(text)
-    nums = {n[0] for n in scan_numbers(t)}
-    if valor in nums: return True
-    if valor * 12 in nums and "mes" in t: return True              # 0.5 <- "seis meses"
-    if valor - 0.5 in nums and "medio" in t: return True           # 2.5 <- "dos años y medio"
+    ns = scan_numbers(t)
+    if valor in {n[0] for n in ns}: return True
+    for v, ini, fin in ns:
+        if v == valor * 12 and re.match(r"\s+meses", t[fin:]): return True           # 0.5 <- "seis meses"
+        if v == valor - 0.5 and re.match(r"\s+anos?\s+y\s+medio", t[fin:]): return True  # 2.5 <- "dos años y medio"
     return False
 
 def extraer(text, cfg):
