@@ -95,12 +95,18 @@ def calcular(items, promo, carta):
     elif promo == "Q2": sub -= (sum(i["cantidad"] for i in items if i["producto"] == "gaseosa") // 3) * 5
     return sub
 
+def _subsecuencia(a, b):
+    it = iter(b)
+    return all(ch in it for ch in a)
+
 def diagnosticar(menciones, calculado):
     """Si el desajuste existe: total repetido >=2 veces con el mismo valor -> error del HABLANTE;
     si no se repite y alguna mención coincide con el cálculo -> error del ASR; si no, indeterminado."""
     c = Counter(menciones); ult = {v: i for i, v in enumerate(menciones)}
     dicho = max(c, key=lambda v: (c[v], ult[v]))
     if dicho == calculado: return dicho, "coincide"
+    if len(str(dicho)) < len(str(calculado)) and _subsecuencia(str(dicho), str(calculado)):
+        return dicho, "asr"           # regla v2: al valor dicho le falta un dígito del cálculo ("13" vs "113")
     if c[dicho] >= 2: return dicho, "hablante"
     if calculado in c: return dicho, "asr"
     return dicho, "indeterminado"
