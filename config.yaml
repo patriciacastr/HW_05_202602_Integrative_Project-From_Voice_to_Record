@@ -59,3 +59,6 @@ extraction:      # (se completa en la Fase 3)
 
 validation:      # (Tarea 2)
   total_tolerance_soles: 0
+
+engine:
+  run: large_cuda_fp16_gl   # corrida de benchmark que usa el motor
