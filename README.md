@@ -139,7 +139,7 @@ Pedido extraído con `src/extract_order.py`. Validación: suma de cantidad por p
 
 ## 7. Un motor, dos esquemas
 
-[COMPLETAR: pendiente de crear `src/engine.py` con una función `procesar_audio(ruta, esquema)` que devuelva transcript, campos, verificación, dispositivo, tiempo y error, y explicar aquí cómo sirve a los esquemas de T1 y T2. Hoy la lógica está repartida entre `src/asr.py`, `extract_rules.py` y `extract_order.py`.]
+Un solo módulo, `src/engine.py`, expone `procesar_audio(ruta, esquema)`. Recibe la ruta de un audio y devuelve un diccionario con la transcripción, los campos, cuáles quedaron verificados, el dispositivo leído de la librería, el tiempo y el error. El esquema `entrevista` (6 campos) o `pedido` (ítems, promoción, dirección, pago, total) solo cambia el extractor: la decodificación con ffmpeg, Whisper con glosario, la política de fallar si se pide GPU y no hay, y el manejo de errores son compartidos. Límite: la extracción no es un único modelo para ambos esquemas, son dos extractores bajo el mismo motor. La carta de precios se lee del ground truth y en un sistema real iría en `config.yaml`. La app solo llama a esta función.
 
 ## 8. Herramientas de IA declaradas
 
