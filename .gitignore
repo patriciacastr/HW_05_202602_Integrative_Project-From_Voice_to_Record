@@ -10,3 +10,4 @@ data/audio/**/*.ogg
 data/audio/**/*.opus
 models/
 .ipynb_checkpoints/
+__pycache__/
