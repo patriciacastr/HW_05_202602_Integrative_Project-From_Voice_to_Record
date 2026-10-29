@@ -1,0 +1,14 @@
+{
+  "text": "Chifa dragón dorado, buenas tardes, ¿cómo puedo ayudarle? Buenas tardes, quiero hacer un pedido para el almuerzo en mi oficina, para delivery. Claro, dígame. Quiero dos arroces chaufa familiares, dos tallarines saltados y dos porciones de wantán frito. Perfecto. Pensándolo bien, mejor tres tallarines saltados, porque somos nueve personas y los chaufas no alcanza para todos. Entendido, dos chaufas familiares, tres tallarines saltados y dos porciones de wantán frito. Sí, así es. ¿Pueden hacer los tallarines sin picante? Sin problema, lo anotamos sin ají. Una consulta, ¿el wantán frito viene caliente o hay que recalentarlo? Salen recién hecho, pero si el repartidor demora, se puede pasar unos minutos por la sartén para que quede crocante. Entiendo, ¿y los tallarines vienen con carne o con pollo? Si no nos dicen nada, los preparamos mixtos con carne y pollo. Gracias. Los precios son chaufa familiar 34 soles cada uno, tallarín saltado 22 soles cada uno y la porción de wantán frito 12 soles. Hoy tenemos un descuento de 15 soles en pedidos desde 90 soles y su pedido califica. Qué bien. ¿Cuál es su dirección? Avenida La Marina 3420, en Los Olivos, edificio oficinas, piso 4. Avenida La Marina 3420, Los Olivos, piso 4. ¿Cómo vais a pagar? Con yape. Perfecto, le enviaremos el código. El total sería 148 soles. ¿148? De acuerdo. Sí, 148 soles. Llegará en 50 minutos más o menos. Sí, 148 soles. Llegará en 50 minutos más o menos. Sí, 148 soles. Llegará en 50 minutos más o menos. ¿Se puede entregar hasta antes de las 12? Tenemos una reunión. Haremos lo posible, lo ponemos como prioridad. ¿Y pueden enviar platos descartables para todos? Claro, le enviamos platos cubiertos de servilletas para 9 personas. Una cosa más, en el edificio y vigilante de la entrada, ¿el repartidor puede avisar desde la portería? Claro, le pedimos que pregunte por usted en la portería y que le llame por teléfono para que vaya a recoger el pedido. Perfecto, porque la oficina queda adentro de un edificio grande y a veces no se escucha el timbre. Entendido, lo anotamos en la hoja de pedido para que no haya confusión. Y si llega antes de lo previsto, ¿puede esperar abajo unos minutos? Sí, sin problema, esperaré en la entrada hasta que usted baje. Otra cosa, como somos varios, ¿pueden mandar todo bien separado por bolsas para repartirlo más fácil? Claro, separaremos todo en bolsas y marcaremos cada una por contenido para que se reparta más fácil sin abrir todas. Muchas gracias. Gracias a usted, buenas tardes.",
+  "elapsed_s": 19.335262522999983,
+  "audio_s": 143.637375,
+  "sec_per_min_audio": 8.076698361968806,
+  "clip": "t2_05",
+  "level": "L2",
+  "run": "large_cuda_fp16_gl",
+  "model": "large-v3",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": true
+}

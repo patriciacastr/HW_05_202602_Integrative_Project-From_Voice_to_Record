@@ -1,0 +1,14 @@
+{
+  "text": "Chifa Dragón Dorado, buenas tardes, ¿qué desea? Hola, buenas tardes, quiero pedir para mi casa, para delivery. Claro, dígame su pedido. Un arroz chaufa personal y un tallarín saltado, una sopa de wantán y cuatro gaseosas personales. Perfecto, ¿las gaseosas de qué sabor? Dos de cola y dos de naranja. Anotado, ¿desea algo más? No, con eso estamos bien, es para el almuerzo con mis sobrinos. Qué bien, los precios son chaufa personal 18 soles, tallarín saltado 22 soles, sopa de wantán 16 soles, y las gaseosas personales 5 soles cada una. Hoy tenemos 3x2 en las gaseosas personales. Entonces con cuatro gaseosas me sale una gratis, ¿no? Así es, por cada tres pagados, entonces en cuatro, una es gratis. ¿Y las gaseosas llegan frías? Sí, salen de la refrigeradora y las enviamos en una bolsa aparte para que no se golpeen. Perfecto. ¿Quiere que le enviamos los palitos y los cubiertos en bolsas separadas? Sí, por favor, porque mis sobrinos no usan palitos y prefieren tenedor. Anotado. También podemos enviar los sobrecillos de sillao y de ají por si alguien los desea. Perfecto, mándenos todos. A mis sobrinos les encanta mezclar la salsa con toda la comida. Qué lindo, entonces los incluimos. Si hay algún ingrediente que alguien en la mesa no coma, avísenos para tener cuidado. No hay ninguno, gracias. En mi casa comemos de todo. Un detalle más, si alguien de la familia prefiere comida menos grasosa, la cocina puede prepararlas con menos aceite, solamente avísenos. Qué amable, mi hermana siempre pide eso, así que le diré que lo tienen. Gracias por avisarnos. Con eso ya estaría todo anotado. Si recuerda algo más, todavía estamos a tiempo de agregarlo al pedido. Creo que no me falta nada, pero se lo agradezco. Usted es muy atenta. ¿Cuál es su dirección de entrega? Girón Lampa 185, interior 3, en el Cercado de Lima. Girón Lampa 185, interior 3, Cercado de Lima. ¿Cómo pagará? Efectivo, tiene sencillo el repartidor. Voy a pagar con un billete de 100. Sí, llevará vuelto. El total sería 76 soles. 76 soles, está bien. Sí, 76 soles será, ¿no? Sí. Sí, 76 soles. Su pedido llegará en 45 minutos. Gracias. ¿El teguerín viene con verduras? Sí, con verduras salteadas, cebolla china y pimienta. Perfecto. ¿Y el chaufa lleva huevo? Sí, lleva huevo, cebolla china y trocitos de pollo o cerdo, según prefiera. De pollo, por favor. Anotado, de pollo. Gracias por su pedido. Gracias a usted.",
+  "elapsed_s": 18.742997799000022,
+  "audio_s": 137.536,
+  "sec_per_min_audio": 8.176621887651242,
+  "clip": "t2_04",
+  "level": "L2",
+  "run": "large_cuda_fp16_gl",
+  "model": "large-v3",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": true
+}

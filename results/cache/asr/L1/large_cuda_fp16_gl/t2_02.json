@@ -1,0 +1,14 @@
+{
+  "text": "Chifa Dragón Dorado, buenas noches, ¿qué desea pedir? Buenas noches, quiero dos arroces chaufa personales y dos sopas de wantán. Anotado, ¿algo más? Sí, tres gaseosas presionales. Ay, perdón, sobre las sopas, mejor una sola sopa de wantán, no dos. Solo una persona la quiere. Entendido. Entonces, dos chaufas personales, una sopa de wantán y tres gaseosas personales. Correcto. ¿Las gaseosas son de varios sabores? Sí, tenemos de cola, de naranja y de limón. Dos de cola y una de naranja, porfa. Listo, los precios son el chaufa personal 18 soles, la sopa de wantán 16 soles y cada gaseosa personal 5 soles. Además, hoy tenemos tres por dos en las gaseosas personales, o sea que por tres paga solo dos. Qué bien, entonces las tres gaseosas me salen al precio de dos. Así es, ¿cuál es su dirección de entrega? Avenida Brasil 1210, en Breña, al lado del banco. Avenida Brasil 1210, Breña, ¿y cómo va a pagar? Efectivo, ¿me puede avisar cuando esté llegando? Claro, al repartidor le llamaremos. Ahora, el total sería 62 soles. ¿72 soles? Bueno, está bien. Sí, 72 soles en total. Llegará en 40 minutos más o menos. Perfecto, ¿pueden enviar palitos chinos? Con gusto, le ponemos palitos, servilletas y sobrecitos de sillao. Una cosa más, mi vecina me dijo que su pedido anterior llegó rápido, ¿cómo hacen para que no demore? Tenemos varios repartidores por zona y preparamos el pedido apenas termina la llamada, así que sale de la cocina en pocos minutos. Mucho eficiente, ¿y si llueve, también llega a tiempo? Con lluvia puede demorar un poco más, pero le avisaremos si eso pasa, para que no se preocupe. Gracias por la sinceridad, se agradece mucho. A usted por su paciencia, nos esforzamos para que el pedido llegue siempre en buen estado. Otra pregunta, ¿ustedes preparan la comida en el momento o ya la tienen lista de antes? La preparamos en el momento, apenas recibimos el pedido, los ingredientes llegan frescos cada mañana y por eso el sabor es distinto al de un plato recalentado. Muchas gracias, ¿la sopa de wonton viene caliente? Sí, la enviaremos en un vaso térmico para que llegue bien caliente. Excelente, gracias. ¿Desea agregar un postre? Tenemos helado frito recién hecho. No gracias, solo eso, es una cena sencilla en casa. Perfecto, entonces queda tal cual, que lo disfruten. Igualmente. Gracias a usted, buenas noches.",
+  "elapsed_s": 17.006655790999957,
+  "audio_s": 137.0668125,
+  "sec_per_min_audio": 7.44453984774759,
+  "clip": "t2_02",
+  "level": "L1",
+  "run": "large_cuda_fp16_gl",
+  "model": "large-v3",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": true
+}

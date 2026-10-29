@@ -1,0 +1,37 @@
+[
+  {
+    "clip": "t2_01",
+    "snr_target_db": 10,
+    "snr_achieved_db": 10.0,
+    "noise": "pink",
+    "seed": 42
+  },
+  {
+    "clip": "t2_02",
+    "snr_target_db": 10,
+    "snr_achieved_db": 10.0,
+    "noise": "pink",
+    "seed": 42
+  },
+  {
+    "clip": "t2_03",
+    "snr_target_db": 10,
+    "snr_achieved_db": 10.0,
+    "noise": "pink",
+    "seed": 42
+  },
+  {
+    "clip": "t2_04",
+    "snr_target_db": 10,
+    "snr_achieved_db": 10.0,
+    "noise": "pink",
+    "seed": 42
+  },
+  {
+    "clip": "t2_05",
+    "snr_target_db": 10,
+    "snr_achieved_db": 10.0,
+    "noise": "pink",
+    "seed": 42
+  }
+]

@@ -1,0 +1,6 @@
+clip,nivel,calculado,dicho_extraido,alerta,trampa,atrapada,perdida,falsa_alarma,diagnostico,causa_real,ok_items,ok_promocion,ok_direccion_entrega,ok_direccion_numeros,ok_metodo_pago,ok_total_dicho
+t2_01,L3,68,68,False,False,False,False,False,coincide,ninguna,True,True,True,True,True,True
+t2_02,L3,62,72,True,True,True,False,False,hablante,hablante,True,True,True,True,True,True
+t2_03,L3,113,13,True,False,False,False,True,asr,asr,True,True,True,True,True,False
+t2_04,L3,71,76,True,True,True,False,False,hablante,hablante,True,True,False,False,True,True
+t2_05,L3,143,148,True,True,True,False,False,hablante,hablante,True,True,False,True,True,True

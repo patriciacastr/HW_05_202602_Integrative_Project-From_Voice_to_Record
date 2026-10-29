@@ -1,0 +1,14 @@
+{
+  "text": "Chifa Dragón Dorado, buenas tardes, ¿en qué le ayudo? Buenas tardes, quiero hacer un pedido grande por una reunión familiar y lo voy a recoger en la tienda. Con gusto, dígame. Quiero tres arroces chaufa familiares, un tallarín saltado y dos porciones de wantán frito y una jarra de limonada. Perfecto. Mmm, espera, tres chaufas familiares es demasiado, mejor dos chaufas familiares, lo demás está igual. Entendido, dos chaufas familiares, un tallarín saltado, dos porciones de wantán frito y una jarra de limonada. Exacto, ¿la limonada es con hielo? Sí, y se la preparamos con el hielo aparte para que no se diluya. Mejor aparte, gracias. Los precios son chaufa familiar 34 soles cada uno, un tallarín saltado 22 soles, un wantán frito 12 soles cada porción y la jarra de limonada 14 soles. Y hoy tenemos un descuento de 15 soles en pedidos desde 90 soles. Mi pedido califica, ¿verdad? Sí, la suma es 128 soles, tenemos menos 15, son 138 soles. 113 soles en total. 113 soles, perfecto. ¿A nombre de quién será el pedido? Nombre de Milagros. Milagros, listo, ¿cómo pagará? Con tarjeta cuando lo recoja. Perfecto, estará listo en 30 minutos. Gracias, ¿hasta qué hora tienden? Hasta las 11 de la noche. Entonces pasan un rato, ¿tienen estacionamiento? Sí, hay espacio al costado del local y si está lleno puede dejar el auto en la calle. Genial, gracias. Una cosa más, ¿pueden poner las porciones de wantán en un envase aparte para que no se humedezcan? Claro, las empacamos. Las empacamos aparte con un salsa de tamarindo, así llegan bien crocantes. Perfecto, muchas gracias. Antes de despedirnos, ¿desea que le dejemos el contacto de la tienda por si hay algún cambio? Sí, por favor, para avisar si tengo algún retraso en llegar. Claro, nuestro teléfono es el mismo desde el que usted está llamando ahora. Ah, entonces no hace falta. Quiero registrar mi teléfono. Exacto, y si llega antes de la hora indicada, avísenos desde la puerta y la atendemos primero. Qué amable, así lo haré. Gracias por todo. Si necesita que le guardemos el pedido en un lugar tibio mientras llega, no se preocupe. Lo dejaremos en la zona de entrega y local con su nombre. Muchas gracias. Qué detalle. Hoy el gráfico está pesado y no sé exactamente cuánto me voy a demorar en llegar. Repito, dos chafos familiares, un tigre ensaltado, dos wantanes fritos y una limonada. 113 soles. Los esperamos. Milagros. Hasta luego.",
+  "elapsed_s": 17.976466339999888,
+  "audio_s": 135.2106875,
+  "sec_per_min_audio": 7.977091163004354,
+  "clip": "t2_03",
+  "level": "L1",
+  "run": "large_cuda_fp16_gl",
+  "model": "large-v3",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": true
+}

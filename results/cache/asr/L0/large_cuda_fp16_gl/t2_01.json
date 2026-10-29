@@ -1,0 +1,14 @@
+{
+  "text": "Chifa Dragón Dorado, buenas tardes, ¿en qué le puedo ayudar? Buenas tardes, quisiera hacer un pedido para delivery, por favor. Claro que sí, cuénteme qué desea pedir. Quiero un arroz chaufa familiar, un tallarín saltado y una porción de wantán frito. Perfecto, el arroz familiar cuesta 34 soles, el tallarín saltado 22 soles y la porción de wantán frito 12 soles. ¿Algo más? No, eso es todo. Una consulta, ¿el tallarín saltado lleva carne o pollo? Puede ser de pollo, de carne o mixto, ¿cuál prefiere? Mixto, por favor. ¿Y el wantán frito viene con salsa? Sí, con salsa de tamarindo, queso agridulce. Perfecto, ¿el chaufa familiar alcanza para tres personas? Sí, alcanza bien para tres, y si comen poco, hasta para cuatro. Genial, ¿y pueden enviarme también salsa de ají y sillao? Claro, con gusto. Le incluimos sobrecitos de sillao y de ají. Gracias. Si lo desea, también podemos enviar cucharas y tenedores descartables, además de dos. De los palitos. Sí, por favor, ambos, porque en casa hay niños que todavía no usan bien los palitos. Sí, con gusto. Así todos podrán comer cómodos, y también incluimos rolletas en cantidad suficiente. Qué amable. Una duda, disculpe, ¿los recipientes se pueden meter al microondas? Sí, son aptos para microondas, aunque recomendamos retirar la tapa antes de calentar la comida. Entendido, gracias por avisarme. Así evito cualquier accidente. Y si algún día quiere hacer un pedido más grande para una reunión o una celebración, lo ideal es llamarnos con anticipación para preparar todo con calma. Buena idea, lo voy a tener en cuenta. Hay una celebración familiar más adelante y seguro necesitaremos algo así. También puede guardar nuestro número de su teléfono, así la próxima vez lo tendremos todavía más rápido. Buena idea, lo guardo ahora mismo para no tener que buscarlo después. Le comento que por el monto de su pedido no aplica ninguna promoción hoy, porque el descuento empieza desde 90 soles. Está bien, no hay problema. ¿Cuál es su dirección? Calle Los Naranjos, 50... 156. En Pueblo Libre, Casa de Portón Verde. Calle Los Naranjos, 156, Pueblo Libre. ¿Cómo pagará? Con yape, ahora mismo, si me envía el código. Claro, se lo enviaremos por mensaje. El total es 68 soles. 68 soles, correcto. ¿Atienden hasta tarde? Hasta las 11 de la noche. Repito su pedido. Un champú familiar, un tallarín saltado mixto y un wonton frito por 68 soles. Así es. ¿Cuánto demoran? Aproximadamente 35 minutos. Muchas gracias. A usted. Buen provecho.",
+  "elapsed_s": 21.502495695999983,
+  "audio_s": 146.496,
+  "sec_per_min_audio": 8.806723335517685,
+  "clip": "t2_01",
+  "level": "L0",
+  "run": "large_cuda_fp16_gl",
+  "model": "large-v3",
+  "compute_type": "float16",
+  "device_requested": "cuda",
+  "device_runtime": "cuda",
+  "glossary": true
+}
