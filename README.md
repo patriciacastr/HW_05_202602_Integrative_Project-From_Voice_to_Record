@@ -2,7 +2,7 @@
 
 Proyecto integrador individual (HW_05_202602). Autora: Patricia Castro Hilario.
 
-- Video (máx. 8 min): [COMPLETAR enlace]
+- Video (máx. 8 min): https://drive.google.com/file/d/1XDyde63PA1dNzk7qACEpkk7bU5Y40HbO/view?usp=sharing
 - Documento del pipeline (Notion/Miro, público): https://app.notion.com/p/Pipeline-de-la-voz-al-registro-c50c22b3368249998aed8e5c8a631827
 
 ## 1. Qué hace
